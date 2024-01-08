@@ -1,0 +1,148 @@
+/* common Shared styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+/* first-part-styles*/
+.head-image {
+
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("images/Banner\ Image.png");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 50px 20px;
+    border-radius: 15px;
+}
+
+.head-text {
+    text-align: center;
+    padding-top: 250px;
+    color: white;
+}
+
+.head-description {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* DISCOUNT SECTION */
+.discount-rate {
+    text-align: center;
+    color: #FF0000;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.discount-descrip-one {
+    text-align: center;
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.discount-catecories {
+    text-align: center;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.new-year-photo {
+    width: 100%;
+    height: 100%;
+}
+
+/* midnight styles code */
+
+.midnight-party {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("images/Vectorrr.png");
+    height: 630px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    border-radius: 15px;
+
+}
+
+.midnight-welcome {
+    width: 100%;
+    color: white;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.midnight-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.midnight-first-column {
+    margin: 150px 100px;
+    width: 80%;
+}
+
+.midnight-second-column {
+    margin: 150px 120px;
+}
+
+.join-btn {
+
+    background: #07021100;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 15px 35px;
+}
+
+/* style event  */
+
+.event-details{
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%); 
+    border-radius: 16px;
+    
+}
+.event-details-description{
+    padding-top: 150px;
+}
+
+.event-title {
+    color: #FF0000;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.event {
+    color: #070211;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+.join-btn {
+    background: #FF0000;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 15px 35px;
+    border-radius: 10px;
+    margin-top: 50px;
+}

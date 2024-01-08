@@ -101,7 +101,7 @@ section {
     margin: 150px 120px;
 }
 
-.join-btn {
+.join-btn-midnight {
 
     background: #07021100;
     border: 0;
@@ -110,6 +110,7 @@ section {
     font-weight: 700px;
     padding: 15px 35px;
 }
+
 
 /* style event  */
 
@@ -149,23 +150,24 @@ section {
 }
 
 /* offer Coming Soon Section */
-.coming-offer{
+.coming-offer {
     display: flex;
-    
-    
+
+
 }
-.first-coloum-offer{
+
+.first-coloum-offer {
     width: 35%;
     padding-top: 100px;
 }
 
-.second-coloum-offer{
+.second-coloum-offer {
     width: 35%;
     padding-top: 100px;
     padding-left: 140px;
 }
 
-.third-coloum-offer{
+.third-coloum-offer {
     width: 30%;
     padding-top: 100px;
     padding-left: 200px;
@@ -190,10 +192,40 @@ section {
     font-weight: 400;
     line-height: 32px;
 }
-.offer-image{
-    width: 70%; 
-    height: 70%; 
+
+.offer-image {
+    width: 70%;
+    height: 70%;
     border: 15px #FF0000 solid;
     border-radius: 9999px;
     padding: 40px;
 }
+
+.holiday-details {
+    text-align: center;
+}
+
+.holiday-sale {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday {
+    color: #FF0000;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* surprice-image-section */
+.urprice-img-section {
+    display: flex;
+}
+
+/* .surprice-part-1{
+    width: 70%;
+}
+
+.surprice-part-2{
+    width: 30%;
+} */

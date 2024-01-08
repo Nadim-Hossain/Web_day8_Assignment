@@ -218,14 +218,40 @@ section {
 }
 
 /* surprice-image-section */
-.urprice-img-section {
+
+.surprice-img-section{
     display: flex;
 }
 
-/* .surprice-part-1{
+.surprice-part-1{
     width: 70%;
 }
 
 .surprice-part-2{
+    background-image: url("images/Rectangle\ 1.png");
+    background-repeat: no-repeat;
+    height: 400px;
     width: 30%;
-} */
+    border-radius: 15px;
+    margin-right: 25px;
+
+}
+.surprice-img-part-2{
+    margin: 25px -180px;
+}
+
+/* 2nd-surprice-part-footer */
+.surprice-footer-img{
+    display: flex;
+    background-image: url("images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+
+.surprice-box{
+    margin: -400px 0px 0px 0px;
+}
+
+
+
